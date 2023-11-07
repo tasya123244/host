@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Елочные игрушки</title>
+        <link rel="stylesheet" href="нг.css">
+        <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="index.html">Главная</a></li>
+        <li><a id="active" href="контакты.html">Контакты и доставка</a></a></li>
+        <li><a href="о нас.html">О нас</a></li>
+    </ul>
+      </body>
+
+    <form action="https://www.yandex.ru/search?" method="get" target="_self"> 
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <label for="mname">Имя</label>
+            <input type="text" id="mname" name="mname"><br>
+            <label for="msurname">Фамилия</label>
+            <input type="text" id="msurname" name="msurname"><br>
+            <label for="mteleph">Телефон</label>
+            <input type="number" id="mteleph" name="mteleph"><br>
+            <label for="memail">Почта</label>
+            <input type="email" id="memail" name="memail"><br>
+            <label for="mdata">Дата отправки сообшения</label>
+            <input type="date" id="mdata" name="mdata"><br>
+        </fieldset>
+
+            <input class="btn" name="submit" type="Submit" value="Отправить"> 
+            <fieldset>
+                <input type="checkbox" name="data_output" id="datoutp" value="Показать данные" onclick="check(this.form)">Показать данные
+                <p id="rez"></p> 
+            </fieldset>
+    </form>
+<p>
+
+
+</p>
+<hr width="300px" color="#DB7093">
+<p align="center"> Оформление доставка </p>
+<form action="https://www.yandex.ru/search?" method="get" target="_self"> 
+    <fieldset>
+        <legend>Доставка</legend>
+        <label for="madres">Адрес</label>
+        <input type="address" id="madres" name="madres"><br>
+
+        <label name="migrush">Какая игрушка:</label>
+        <input type="text" id="migrush" name="migrush"><br>
+
+        <label for="mteleph1">Запасной телефон, если вы не сможете:</label>
+        <input type="number" id="mteleph1" name="mteleph1"><br>
+
+        <label for="mdata1">Удобная дата доставки:</label>
+        <input type="date" id="mdata1" name="mdatadostavki"><br>
+
+        <label for="mparol">Пароль/кодовое слово для курьера</label>
+        <input type="password" id="mparol" name="mparol"><br>
+        <input type="hidden" name="country" value="Russia">
+        <label>
+            Я подтверждаю свои данные:
+            <input type="checkbox" name="podverdata" value="da">
+        </label>
+    </fieldset>
+
+    <legend>Оплата</legend>
+    <div>
+      <input type="radio" id="PaymentChoice1" name="payment" value="card" />
+      <label for="PaymentChoice1">Картой</label>
+      <input type="radio" id="PaymentChoice2" name="payment" value="cash" />
+      <label for="PaymentChoice2">Наличными</label>
+    </div>
+    <input class="btn" name="submit" type="Submit" value="Отправить"> 
+</form>
+
+
+    </body>       
+</html>

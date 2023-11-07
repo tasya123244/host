@@ -1,0 +1,30 @@
+#navbar {
+  list-style-type: none;
+  width: 1470px;
+  text-align: left;
+  background-color: rgb(146, 196, 129);
+}
+a#active { color: rgb(253, 212, 244); 
+}
+.gl {
+  background: linear-gradient(to bottom, #E6E6FA 0%, #6c9350 100%);
+}
+.on {
+  background: #ffd0d8;
+}
+table {
+    background-image: url("https://god-drakona.ru/wp-content/uploads/2022/10/1624645235_19-phonoteka_org-p-novogodnie-oboi-tumbler-krasivo-21.png");
+}
+.naverh{
+  color: rgb(212, 253, 212);
+}
+.VK{
+  color: rgb(2, 66, 16);
+  background-color:  rgb(146, 196, 129);
+}
+.block img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
